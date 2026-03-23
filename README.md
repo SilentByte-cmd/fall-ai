@@ -159,28 +159,6 @@ do not stop until all 40 are completed.
 
 ---
 
-## Повний конфіг з іншими MCP
-
-```json
-{
-  "mcpServers": {
-    "XcodeBuildMCP": {
-      "command": "/Users/ім'я/.nvm/versions/node/v24.x.x/bin/xcodebuildmcp",
-      "args": ["mcp"]
-    },
-    "fal-ai": {
-      "command": "npx",
-      "args": ["-y", "fal-ai-mcp-server"],
-      "env": {
-        "FAL_KEY": "твій_ключ_сюди"
-      }
-    }
-  }
-}
-```
-
----
-
 ## Workflow для iOS проекту
 
 ```
